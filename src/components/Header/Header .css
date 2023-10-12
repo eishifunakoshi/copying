@@ -1,0 +1,30 @@
+.header {
+    width: 1440px;
+    height: 88px;
+    flex-shrink: 0;
+    display: flex;
+    background-color: #fff; 
+    color: #333; 
+    padding: 10px 20px; 
+  }
+
+  .left{
+    padding: 29px 0px 29px 160px; /*上右下左の順で設定*/
+  }
+  
+  .company-name {
+    font-weight: bold;
+    font-size: 36px;
+    
+  }
+  
+  .light {
+    padding: 40px 0px 35px 487px;
+    display: flex; /* メニューアイテムを横に並べる */
+  }
+
+  .item{
+    margin-right: 40px; /*各要素間の感覚設定*/
+  }
+
+  
