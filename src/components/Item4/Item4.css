@@ -1,0 +1,56 @@
+.flame4 {
+  height: 896px;
+  width: 1440px;
+}
+
+.text4-1 {
+  color: #5b9a57;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding-top: 140px;
+}
+
+.text4-2 {
+  color: #666;
+  text-align: center;
+  font-family: Noto Sans JP;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 120% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+.line {
+  width: 1200px;
+  height: 1px;
+  background: #bfbfbf;
+}
+
+.text-flame {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0px;
+}
+
+.news {
+  padding: 50px 632px 140px 632px;
+}
+
+.button {
+  width: 176px;
+  height: 40px;
+  display: flex;
+  padding: 8px 32px;
+  justify-content: center;
+  border-radius: 8px;
+  background: #bad2b8;
+}
