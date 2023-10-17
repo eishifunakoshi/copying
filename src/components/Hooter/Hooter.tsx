@@ -1,9 +1,7 @@
-import "./Hooter.css";
-
 export const Hooter = () => {
   return (
-    <div className="flame-hooter">
-      <div className="text-hooter">
+    <div className="bg-gray-300 py-5">
+      <div className="text-white flex items-center justify-center">
         Copyright © N & Co. Allrights Reserved.
       </div>
     </div>

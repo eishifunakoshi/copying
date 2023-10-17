@@ -1,22 +1,32 @@
-import "./Item3.css";
-
 export const Item3 = () => {
   return (
-    <div className="flame3">
-      <div className="company">
-        <img className="img" src="./images/company.jpg" />
-        <div className="text3-1">ABOUT</div>
-        <div className="text3-2">会社情報</div>
+    <div className="py-12 bg-green-100 md:flex md:px-4">
+      <div className="px-4">
+        <div className="flex justify-center pb-2 md:pt-9">
+          <img className="rounded-3xl" src="./images/company.jpg" />
+        </div>
+        <div>
+          <div className="text-green-500">ABOUT</div>
+          <div className="text-gray-500">会社情報</div>
+        </div>
       </div>
-      <div className="product">
-        <img className="img" src="./images/product.jpg" />
-        <div className="text3-1">PRODUCTS</div>
-        <div className="text3-2">商品情報</div>
+      <div className="px-4">
+        <div className="flex justify-center pt-9 pb-2">
+          <img className="rounded-3xl" src="./images/product.jpg" />
+        </div>
+        <div>
+          <div className="text-green-500">PRODUCTS</div>
+          <div className="text-gray-500">商品情報</div>
+        </div>
       </div>
-      <div className="recruit">
-        <img className="img" src="./images/recruit.jpg" />
-        <div className="text3-1">RECRUIT</div>
-        <div className="text3-2">採用情報</div>
+      <div className="px-4">
+        <div className="flex justify-center pt-9 pb-2">
+          <img className="rounded-3xl" src="./images/recruit.jpg" />
+        </div>
+        <div>
+          <div className="text-green-500">RECRUIT</div>
+          <div className="text-gray-500">採用情報</div>
+        </div>
       </div>
     </div>
   );
