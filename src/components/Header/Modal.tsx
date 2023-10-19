@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 
 interface ModalProps {
   isOpen: boolean;
-  children: ReactNode; // ReactNode型を使用
+  children: ReactNode;
   onClose: () => void;
 }
 
@@ -19,9 +19,9 @@ export const Modal = ({ isOpen, children, onClose }: ModalProps) => {
             {children}
             <button
               onClick={onClose}
-              className="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md"
+              className="mt-4 bg-gray-300 text-white px-4 py-2 rounded-md"
             >
-              Close
+              ✖︎
             </button>
           </div>
         </div>
