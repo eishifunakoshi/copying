@@ -1,4 +1,4 @@
-export const Item2 = () => {
+export const Product = () => {
   return (
     <>
       <div className="md:grid md:grid-cols-2 md:px-16 md:py-8 md:place-items-center">

@@ -1,4 +1,4 @@
-export const Item3 = () => {
+export const Infomation = () => {
   return (
     <div className="py-12 bg-green-100 md:flex md:justify-center md:px-4">
       <div className="px-4" id="company">

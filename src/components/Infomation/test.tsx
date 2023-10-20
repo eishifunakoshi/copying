@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 interface FeatureSection {
   imgSrc: string;
   imgAlt: string;
@@ -7,12 +5,12 @@ interface FeatureSection {
   description: string;
 }
 
-function FeatureSection({
+const FeatureSection = ({
   imgSrc,
   imgAlt,
   title,
   description,
-}: FeatureSection) {
+}: FeatureSection) => {
   return (
     <div className="px-4">
       <div className="flex justify-center pt-9 pb-2">
@@ -24,13 +22,6 @@ function FeatureSection({
       </div>
     </div>
   );
-}
-
-FeatureSection.propTypes = {
-  imgSrc: PropTypes.string.isRequired,
-  imgAlt: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
 };
 
 export default FeatureSection;
