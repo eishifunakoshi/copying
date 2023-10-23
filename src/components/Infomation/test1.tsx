@@ -1,4 +1,4 @@
-import FeatureSection from "./test.tsx";
+import { FeatureSection } from "./test";
 
 export const Test = () => {
   return (

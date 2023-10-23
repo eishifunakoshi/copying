@@ -5,7 +5,7 @@ interface FeatureSection {
   description: string;
 }
 
-const FeatureSection = ({
+export const FeatureSection = ({
   imgSrc,
   imgAlt,
   title,
@@ -23,5 +23,3 @@ const FeatureSection = ({
     </div>
   );
 };
-
-export default FeatureSection;

@@ -4,8 +4,8 @@ import { TopView } from "./components/TopView/TopView";
 import { Product } from "./components/Product/Product";
 import { Infomation } from "./components/Infomation/Infomation";
 // import { Test } from "./components/Item3/test1";
-// import { News } from "./components/News/News";
-import { Test2 } from "./components/News/test2";
+import { News } from "./components/News/News";
+// import { Test2 } from "./components/News/test2";
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
       <Product />
       <Infomation />
       {/* <Test /> */}
-      {/* <News /> */}
-      <Test2 />
+      <News />
+      {/* <Test2 /> */}
       <Hooter />
     </div>
   );
